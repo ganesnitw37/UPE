@@ -1,0 +1,75 @@
+.add-product-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #f7f9fc; /* Light blue background */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d1e3f0; /* Soft border for a polished look */
+}
+
+.add-product-container h2 {
+    text-align: center;
+    color: #2c3e50; /* Darker blue for the heading */
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.add-product-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #34495e; /* A shade darker than the background */
+    font-size: 16px;
+}
+
+.add-product-container .form-control {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: 1px solid #cbd3da;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #ffffff; /* White background for inputs */
+    transition: border-color 0.3s ease;
+}
+
+.add-product-container .form-control:focus {
+    border-color: #5dade2; /* Blue border on focus */
+    outline: none;
+}
+
+.add-product-container select.form-control {
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.add-product-container .btn-primary {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db; /* Bright blue for the button */
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-product-container .btn-primary:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    transform: scale(1.02); /* Slight scaling effect on hover */
+}
+
+.add-product-container .p-3 {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .add-product-container {
+        padding: 20px;
+        margin: 20px auto;
+    }
+}

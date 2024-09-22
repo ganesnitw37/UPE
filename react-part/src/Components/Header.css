@@ -1,0 +1,104 @@
+.header-container {
+    padding: 10px 20px;
+    background-color: #002f3408;
+    border-bottom: 30px solid #fff;
+}
+
+.mt-3 {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.search {
+    margin-left: 80px;
+    outline: none;
+    padding-left: 10px;
+    width: 400px;
+    height: 44px;
+    border: 2px solid #002f34;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box; /* Added for better layout control */
+}
+
+.search-btn {
+    height: 44px;
+    background-color: #002f34;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.logout-btn {
+    height: 35px;
+    background-color: #002f34;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1px 20px;
+    margin-right: 10px;
+    box-shadow: none;
+    cursor: pointer;
+    box-sizing: border-box; 
+}
+
+.category {
+    color: rgba(0,47,52,1);
+    padding: 7px;
+    cursor: pointer;
+}
+
+.cat-container {
+    background-color: #343a40;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cat-container .pr-3 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.cat-container .category {
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+
+/* Hover Effect on Category */
+.cat-container .category:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Responsive Design: Stacking Categories on Small Screens */
+@media (max-width: 600px) {
+    .cat-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cat-container .pr-3 {
+        margin-bottom: 10px;
+    }
+
+    .cat-container .category {
+        margin-bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+}
